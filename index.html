@@ -13,19 +13,15 @@
     <a-scene embedded arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;">
       
       <a-text
-        value="Mosquee Hassan II"
+        value="TEST 100M"
         look-at="[gps-new-camera]"
-        scale="20 20 20"
+        scale="50 50 50" 
+        geometry="primitive: plane; width: 3; height: 1" 
+        material="color: red"
+        color="white"
+        align="center"
         gps-new-entity-place="latitude: 33.7045; longitude: -7.3652"
-        position="0 30 0">
-      </a-text>
-
-      <a-text
-        value="Twin Center Casablanca"
-        look-at="[gps-new-camera]"
-        scale="20 20 20"
-        gps-new-entity-place="latitude: 33.5867; longitude: -7.6322"
-        position="0 30 0">
+        position="0 0 0">
       </a-text>
 
       <a-camera gps-new-camera rotation-reader near="0.1" far="3000"></a-camera>
